@@ -32,3 +32,10 @@ elif temp == 68:
     print('perfect')
 else:
     print('cold')
+
+print(5 %2)
+
+def factor(x,y):
+    if x % y ==0:
+        print(f"{y} is a factor of {x}")
+    factor(25, 5)
