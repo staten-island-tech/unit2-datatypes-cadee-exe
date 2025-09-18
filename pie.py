@@ -26,4 +26,23 @@ def factor(x,y):
         print(f"{y} is a factor of {x}")
     else:
         print("x is not a factor of y")
-factor(908797, )
+factor(8568938538, 2)
+
+def factor(x,y):
+    if x % y == 0:
+        print(f"{x} is an even number")
+    else:
+        print("x is an odd number")
+factor(9,2)
+
+def service_percentage(bad, okay, good, great):
+    if bad: 
+        print("tip 0%")
+        if okay:
+            print("tip 15%")
+            if good:
+                print("tip 20%")
+                if great:
+                    print("tip 25%")
+service_percentage("okay")
+
