@@ -35,14 +35,22 @@ def factor(x,y):
         print("x is an odd number")
 factor(9,2)
 
-def service_percentage(bad, okay, good, great):
-    if bad: 
-        print("tip 0%")
-        if okay:
-            print("tip 15%")
-            if good:
-                print("tip 20%")
-                if great:
-                    print("tip 25%")
-service_percentage("okay")
+ 
+def ser(s):
+    def bill(b):
+        
+        if s == ("bad") :
+            def tip (x):
+                print(f"tip= {x}")
+        tip(5)
+    elif s == ("okay"):
+    print('15')
+    elif s == ("good"):
+    print('20')
+    elif s == ("great"):
+    print('25')
+ser("okay")
+
+
+
 
