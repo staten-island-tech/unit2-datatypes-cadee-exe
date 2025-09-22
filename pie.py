@@ -37,20 +37,42 @@ factor(9,2)
 
  
 def ser(s):
-    def bill(b):
-        
-        if s == ("bad") :
+    if s == ("bad") :
             def tip (x):
                 print(f"tip= {x}")
-        tip(5)
-    elif s == ("okay"):
-    print('15')
+            tip(5)
+    if s == ("okay"):
+        print('15')
     elif s == ("good"):
-    print('20')
+        print('20')
     elif s == ("great"):
-    print('25')
+        print('25')
+ser("bad")
+
+
+def ser(s):
+    def bill(b):
+        if s == ("bad") :
+         def tip (x):   
+            print(b * x)
+            tip(0.05)
+        elif s == ("okay"):
+            def tip(x):
+                    print(b * x)
+            tip(0.15)
+        elif s == ("good"):
+            def tip(x):
+                    print(b * x)
+            tip(0.20)
+        elif s == ("great"):
+            def tip(x):
+                    print(b * x)
+            tip(0.25)
+    bill(30)
 ser("okay")
 
+min[x,y]
+for i in range(x):
 
 
 
