@@ -71,8 +71,11 @@ def ser(s):
     bill(30)
 ser("okay")
 
-min[x,y]
-for i in range(x):
-
-
+def factor(x):
+    for i in range(x):
+        if (10%x) == 0:
+            print(f"{x} is a factor")
+            factor(x+1)
+factor(2)
+    
 
