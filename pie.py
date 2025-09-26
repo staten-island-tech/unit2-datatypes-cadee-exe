@@ -71,11 +71,18 @@ def ser(s):
     bill(30)
 ser("okay")
 
+
 def factor(x):
-    for i in range(x):
-        if (10%x) == 0:
-            print(f"{x} is a factor")
-            factor(x+1)
-factor(2)
-    
+        gcf=0
+        for i in range(2,x):
+            if(30%i)== 0 and (15%i) == 0:
+                gcf =i
+factor(3)
+
+def factor(x):
+        gcf=0
+        for i in range(2,x):
+            if(30%i)== 0 and (15%i) == 0:
+                gcf =i
+factor(3)
 
