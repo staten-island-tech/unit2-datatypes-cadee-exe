@@ -33,3 +33,11 @@ elif temp == 68:
 else:
     print('cold')
 
+    def factor(x):
+        gcf=0
+        for i in range(5,x):
+            if(15%i)== 0 and (5%i) == 0:
+                gcf =i
+factor(5)
+
+
