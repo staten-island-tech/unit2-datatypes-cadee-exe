@@ -72,17 +72,20 @@ def ser(s):
 ser("okay")
 
 
-def factor(x):
-        gcf=0
-        for i in range(2,x):
-            if(30%i)== 0 and (15%i) == 0:
-                gcf =i
-factor(3)
+""" def factor(x):
+    for i in range(x):
+        if(30%x)== 0 and (15%x) == 0:
+            print(f"{x} is a common factor")
+        factor(x+1)
+factor(3) """
 
-def factor(x):
+def factor(x,y):
         gcf=0
-        for i in range(2,x):
-            if(30%i)== 0 and (15%i) == 0:
-                gcf =i
-factor(3)
+        for i in range(2,5):
+            if x%y== 0 and x%y == 0:
+                gcf = i
+                print(i)
+        print(gcf)
+factor(12,18)
+
 
