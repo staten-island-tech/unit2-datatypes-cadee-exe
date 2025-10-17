@@ -82,10 +82,26 @@ factor(3) """
 def factor(x,y):
         gcf=0
         for i in range(2,5):
-            if x%y== 0 and x%y == 0:
+            if x%i== 0 and y%i == 0:
                 gcf = i
                 print(i)
         print(gcf)
 factor(12,18)
 
+count = 1
 
+while count <= 5:
+    print("This is loop number", count)
+    count = count + 1
+
+
+""" number = 1
+while number > 0:
+    print("This will never stop!") """
+
+order = ""
+
+while order != "done":
+    order = input("What would you like to order? (type 'done' to finish): ")
+
+print("Thanks for your order!")
